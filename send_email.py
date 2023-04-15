@@ -13,7 +13,7 @@ def send_email(message):
     username = "kusumo1920@gmail.com"
     password = os.getenv("EMAIL_APP_PASSWORD")
 
-    receiver = "kusumo1920@gmail.com"
+    receiver = "kesit.kusumo@icloud.com"
     context = ssl.create_default_context()
 
     with smtplib.SMTP_SSL(host, port, context=context) as server:
